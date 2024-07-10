@@ -167,6 +167,7 @@
     justify-content: center;
 }
 .div-content2{
+    text-align: center;
     border: 1px solid #22293a;
     border-radius: 16px;
     padding: 40px;
