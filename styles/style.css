@@ -211,3 +211,16 @@ main{
     margin: 24px;
 }
 
+#end{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+#end ul{
+    display: flex;
+    justify-content: space-evenly;
+}
+#end ul li{
+    list-style: none;
+}
