@@ -24,16 +24,18 @@
     margin-top: 38px;
     margin-right: 15px;
     color: #rgba(13, 19, 33, 1);
-    padding: 17px 24px 17px 24px;
-    border-radius: 8px;
-    font-weight: 600;
-    font-size: 20px;
+    padding : 17px 24px 17px 24px;
+    border-radius : 8px;
+    font-weight : 600;
+    font-size : 20px;
 }
 
 /* header > hero */
 
 .hero{
     background-image: url(../assets/Hero-bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
     margin-bottom: 75px;
    
 }
@@ -73,12 +75,7 @@
 main{
     max width: 1140px;
     margin: 0 auto;
-}
-
-/* .reason{
-    padding: 80px 97px 80px 97px;
-    text-align: center;
-} */
+} 
 
 .content-head{
     text-align: center;
@@ -107,12 +104,45 @@ main{
 .tube{
     border: 1px solid grey;
     border-radius: 16px;
+    padding-top: 32px
 }
 .video-link{
     border-radius: 16px;
     padding-top: 32px;
 }
+/* target section */
+ 
+#target{
+    margin-top: 90px;
+   
+}
 
+.skills-name{
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+}
+
+.skill-name{
+    padding: 40px;
+}
+.bg-1{
+    background-color: rgba(255, 76, 30, 0.05) ;
+    
+}
+
+.bg-2{
+    background-color: rgba(0, 76, 232, 0.05);
+}
+
+.bg-3{
+    background-color: rgba(255, 223, 0, 0.05);
+}
+ 
+#next-target section{
+    text-align: center;
+    display: flex;
+}
 /* shared styles */ 
 
 .section-title{
@@ -120,11 +150,15 @@ main{
     font-size: 32px;
     font-weight: 800;
     margin-bottom: 24px;
-}
-
-.text-center{
     text-align: center;
 }
+
+.section-description{
+    text-align: center;
+    margin-bottom: 48px;
+    
+}
+
 .div-content{
     padding: 48px ;
     display: flex;
@@ -145,3 +179,35 @@ main{
     font-weight: 600;
     padding: 12px 20px;
 }
+
+.skill-title{
+    font-size: 24;
+    font-weight: 800;
+}
+
+.skills-name a, .div-content a{
+    color: black;
+    margin-top: 40px;
+    margin-bottom: 111px;
+    
+}
+
+#next-target{
+   justify-content: center;
+   margin-bottom: 50px;
+}
+
+#body-footer{
+    border: 1140px solidb black;
+    border-radius: 16px;
+    background-image: url(../assets/handshake.jpg);
+    mix-blend-mode: darken top;
+    background-size: cover;
+    background-position: 100%;
+    background-repeat: no-repeat;
+    padding: 64px 48px;
+    color: #FFFFFF;
+    text-align: center;
+    margin: 24px;
+}
+
