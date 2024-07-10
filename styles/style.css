@@ -106,11 +106,7 @@
     border-radius: 16px;
     padding: 32px;
 }
-/* .video-link{
-    border-radius: 25%;
-    
-} */
-/* target section */
+
  
 #target{
     margin-top: 90px;
@@ -197,7 +193,7 @@
     font-weight: 800;
 }
 
-.skills-name a, .div-content a{
+.skills-name a, .div-content a, .div-content2 a{
     color: black;
     margin-top: 40px;
     margin-bottom: 111px;
